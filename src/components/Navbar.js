@@ -1,5 +1,6 @@
 import React, { useState }  from 'react';
 
+
 import "./navbar.css"
 
 // importing logos
@@ -29,7 +30,7 @@ const Navbar = () => {
 <div className="menu-link">
 <ul>
     <li>
-        <a href="#">Home</a>
+        <a className="link1" href="#">welcome</a>
     </li>
         <li>
         <a href="#">us</a>
@@ -59,28 +60,28 @@ const Navbar = () => {
     <ul className="social-media-desktop">
         <li>
             <a href="#" target="_lovevfx">
-                <FaFacebookF className="facebook"/>
+                <FaFacebookF className="facebook icons"/>
             </a>
         </li>
         <li>
             <a href="https://www.instagram.com/lovevfxstudios/" target="_lovevfx">
-                <FaInstagramSquare className="instagram"/>
+                <FaInstagramSquare className="instagram icons"/>
             </a>
         </li>
         <li>
             <a href="#" target="_lovevfx">
-                <FaLinkedinIn className="linkedin"/>
+                <FaLinkedinIn className="linkedin icons"/>
             </a>
         </li>
         <li>
             <a href="#" target="_lovevfx"> 
-                <FaYoutube className="youtube"/>
+                <FaYoutube className="youtube icons"/>
             </a>
         </li>
 
         <li>
             <a href="#" target="_lovevfx"> 
-                <FaTwitter className="youtube"/>
+                <FaTwitter className="youtube icons"/>
             </a>
         </li>
     </ul>
@@ -97,7 +98,8 @@ const Navbar = () => {
 
   {/* { hero section} */}
    <section className="hero-section">
-   <video src={`https://res.cloudinary.com/df4o2wzzw/video/upload/v1681142465/hero_00_00_00-00_01_03_i2otyi.mp4`} autoPlay loop muted/>
+   
+   <video src={`https://res.cloudinary.com/df4o2wzzw/video/upload/v1681142465/hero_00_00_00-00_01_03_i2otyi.mp4`} autoPlay loop muted />
    <div className="content">
     <p>Welcome to Love VFX Studios</p>
     <button>Want to know more?</button>
