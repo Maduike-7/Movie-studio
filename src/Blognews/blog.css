@@ -8,19 +8,19 @@
 
 
 .container {
-  max-width: 1200px;
+  max-width: 2000px;
   margin: auto;
 }
 .grid-row {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(370px, 350px));
-  grid-gap: 20px 20px;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 350px));
+  grid-gap: 20px 40px;
   justify-content: center;
   align-items: baseline;
 }
 
 .grid-row .grid-item span {
-  /* padding: 80px; */
+  padding: 20px;
   line-height: 1;
 }
 .grid-row .grid-item h3 {

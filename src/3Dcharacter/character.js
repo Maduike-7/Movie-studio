@@ -5,7 +5,6 @@ import "./character.css"
 
 
 // importing logo from src
-import Juju from "../Juju.jpg"
 
 
 const Character = () => {
