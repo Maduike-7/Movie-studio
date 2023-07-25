@@ -5,9 +5,9 @@ import "./general.css"
 const Course = () => {
   return (
     
-<div className="hero2-section">
+<div className="hero2-section hideme">
    
-<img className="heroimg" src={`https://media.istockphoto.com/id/1427631515/photo/side-view-on-meeting-room-with-light-modern-furniture-and-city-view-from-glass-wall-behind.jpg?b=1&s=170667a&w=0&k=20&c=pFRvxwk80399P-9SYP6SdTSDIGoOpXW8NyLQ5mCRCnI=`}  alt="" />
+<img className="heroimg " src={`https://media.istockphoto.com/id/1427631515/photo/side-view-on-meeting-room-with-light-modern-furniture-and-city-view-from-glass-wall-behind.jpg?b=1&s=170667a&w=0&k=20&c=pFRvxwk80399P-9SYP6SdTSDIGoOpXW8NyLQ5mCRCnI=`}  alt="" />
 
 <div className="content2">
 <h1 >Need help in choosing a <span>course</span> or <span>module</span>?</h1>

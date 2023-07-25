@@ -7,7 +7,7 @@ import tv from './tv.gif'
 export const Text = () => {
   return (
 
-<div className="grided-container">
+<div className="grided-container ">
 
 <div className="giftext-container">
     <div className="gif">

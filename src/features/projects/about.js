@@ -7,7 +7,7 @@ const About = () => {
     return (
       
   
-     <section className="About-project">
+     <section className="About-project hideme">
    <div className="line"></div>
   <h3>Let’s Talk About Your Project</h3>
    <div className="line"></div>

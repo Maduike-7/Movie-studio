@@ -1,7 +1,57 @@
-import './general.css'
+import React, { useEffect, useRef } from 'react';
+import { TimelineMax, Power0 } from 'gsap';
+
+import "./general.css"
+
+const Animation = ({ side, bgColor }) => {
+  const boxRef = useRef(null);
+
+  useEffect(() => {
+    const tl = new TimelineMax({
+      repeat: -1,
+      yoyo: true,
+    });
+
+    // Animate the box depending on the side (top, right, bottom, left)
+    const animateSide = (property, size) => {
+      tl.fromTo(
+        boxRef.current,
+        1,
+        {
+          [property]: 0,
+          background: bgColor,
+          immediateRender: false,
+          autoRound: false,
+          ease: Power0.easeNone,
+        },
+        {
+          [property]: size,
+          background: bgColor,
+        }
+      );
+    };
+
+    switch (side) {
+      case 'top':
+        animateSide('width', 200);
+        break;
+      case 'right':
+        animateSide('height', 200);
+        break;
+      case 'bottom':
+        animateSide('width', 200);
+        break;
+      case 'left':
+        animateSide('height', 200);
+        break;
+      default:
+        break;
+    }
+  }, [bgColor, side]);
 
 
-const index = () => {
+
+
   return (
     
     <section className="hero-section">
@@ -11,12 +61,21 @@ const index = () => {
      <p>Welcome to Love VFX Studios</p>
      <p className="introduction">We specialize in a range of creative services encompassing graphic design, 3D animation, game development,
       and website design.</p>
-     <button>Want to know more?</button>
+     <button  onClick={''}>Want to know more?</button>
      </div>
+     <div id="box">
+  <div id="square">
+    <span id="left-side" />
+    <span id="top-side" />
+    <span id="right-side" />
+    <span id="bottom-side" />
+  </div>
+</div>
+
+
    </section> 
- 
-  );
+  )
 };
 
 
-export default index;
+export default Animation;

@@ -1,5 +1,7 @@
 import React from 'react';
 
+// import { ScrollTrigger } from "gsap/ScrollTrigger";
+// import { ScrollSmoother } from "gsap/ScrollSmoother";
 
 // importing components
 import Navbar from "../../layouts/Navbar";
@@ -11,17 +13,19 @@ import Notch from "../../features/projects/notch";
 import Text from "../../features/projects/text"
 import About from "../../features/projects/about";
 import Train from "../../features/projects/train";
-import Character from "../../features/projects/character";
+import AnimatedComponent from "../../features/projects/AnimatedComponent";
 // import Course from "../features/projects/course";
 import Whoweare from "../../features/projects/whoweare";
 import Workers from "../../features/projects/workers";
 import Latestnews from "../../features/projects/latestnews";
 import Blog from "../../features/projects/blog";
 import Footer from "../../features/projects/footer";
-import Fixedicon from "../../features/projects/fixedicon";
-
+// import Chatbot from "../../chatbot/chatbot";
+import Homeeffect from "./homeeffect";
+import Cursor from "../../features/projects/cursor";
 
 export const App = () => {
+  
   return (
   <>
   <Navbar />
@@ -33,17 +37,24 @@ export const App = () => {
   <Text />
   <About />
   <Train />
-  <Character />
+  <AnimatedComponent />
   {/* <Course /> */}
   <Whoweare />
   <Workers />
   <Latestnews />
   <Blog />
   <Footer />
-  <Fixedicon />
+  <Homeeffect />
+  {/* <Chatbot /> */}
+  <Cursor />
   </>
+
+
+
   )
 
+
+  
 }
 
 

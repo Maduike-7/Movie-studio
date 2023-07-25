@@ -6,7 +6,7 @@ const Train = () => {
   return (
     
 
-   <section className="digital-container">
+   <section className="digital-container hideme">
   <div className="digital-content">
   <h1 >Our Training School</h1>
 <div className="line"></div>

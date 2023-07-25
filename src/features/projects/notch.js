@@ -6,7 +6,7 @@
    return (
      
  
-    <section className="digital-container">
+    <section className="digital-container hideme">
    <div className="digital-content">
    <h1 >Top Notch Services.</h1>
  <div className="line"></div>

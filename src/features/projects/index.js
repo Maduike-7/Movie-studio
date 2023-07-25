@@ -7,11 +7,11 @@ const index = () => {
   return (
     
 
-   <section className="digital-container">
-  <div className="digital-content">
+   <section className="digital-container ">
+  <div className="digital-content hideme">
   <h1 >A Pan-African Digital<br></br>
 Content Production Company</h1>
-<div className="line"></div>
+<div className="line hideme"></div>
     <p>We create digital content to entertain, inform, and inspire Africans through unique storytelling that leverages creativity and technology (aka CreaTech) to build a better Africa! We also train, mentor and empower the next generation of African Digital Content Creators.</p>
   </div>
     </section>

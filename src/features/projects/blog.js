@@ -2,8 +2,11 @@ import React from 'react';
 
 
 // importing styles
-
 import './general.css'
+
+import bloglovevfx from "../projects/bloglovevfx.jpg";
+import shayocity from "../projects/shayocity.jpg";
+import trailer from "../projects/trailer.jpg";
 
 export const Blog = () => {
   return (
@@ -12,26 +15,24 @@ export const Blog = () => {
       <div className="grid-row">
         <div className="grid-item">
           <span>
-            <h3>BRAND MARKETING</ h3>
-            <p>What is brand marketing? There is no brand success without brand marketing. You may disagree but the success of global…</p>
+            <h3>Shayo City</ h3>
+            <p>LoveFVX's release of "Shayo City" marks a defining moment in the Nigerian gaming industry and beyond. As the first-ever Nigerian gangstar game, it not only offers an exhilarating gaming experience but also celebrates the cultural heritage of Nigeria. With its immersive narrative and commitment to authenticity, "Shayo City" stands as a testament to the immense creativity and potential within African game development. As players step into the captivating world of "Shayo City," they embark on a thrilling journey that showcases the power of storytelling and representation in the world of gaming.</p>
           </span>
-          <img src={`https://images.unsplash.com/photo-1590102426319-c7526718cd70?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8YnJhbmQlMjBtYXJrZXRpbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60`} />
+          <img src={shayocity} />
         </div>
         <div className="grid-item">
           <span>
-            <h3>Review of Some 3D Software used for Production</h3>
-            <p>Animation is a beautiful work of art achieved through ideas, imagination, and the effective use of required software. Animation software…</p>
+            <h3>LoveFVX Breaking Social Barriers through Gaming</h3>
+            <p>One of LoveFVX's standout achievements is their unyielding commitment to embracing and celebrating their cultural identity. Through games that exude cultural authenticity, the studio showcases Nigeria's rich heritage, languages, music, and traditions. This approach not only resonates with local gamers but also fosters cross-cultural appreciation among players worldwide, creating a platform for sharing diverse narratives from different corners of the globe.</p>
           </span>
-           <img src={`https://www.blender.org/wp-content/uploads/2019/07/blender_vfx-1280x720.jpg?x12104`} />
+           <img src={bloglovevfx} />
         </div>
         <div className="grid-item">
           <span>
-            <h3>Lovevfx Masterclass</h3>
-            <p>LOVE MASTERCLASS LAUNCH It is 2023, and we are 90% sure that some people have made resolutions, one of which…</p>
-          </span>  <img src={`https://images.unsplash.com/photo-1559223607-a43c990c692c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bWFzdGVyJTIwY2xhc3N8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60`} />
+            <h3>LoveFVX Unleashes the Thrilling "Shayo City" Trailer - Nigeria's First Gangstar Game</h3>
+            <p>The imminent release of the "Shayo City" trailer is a momentous occasion for both LoveFVX and the Nigerian gaming industry. As the first-ever Nigerian gangstar game, "Shayo City" sets a precedent for future African game developers to celebrate their cultural heritage while delivering thrilling gameplay. With its captivating storytelling and commitment to cultural authenticity, "Shayo City" promises to be a game that not only entertains but also sparks meaningful conversations about the intricacies of life. Gamers around the world eagerly await the unveiling of the "Shayo City" trailer, ready to embark on an unforgettable journey into the heart of Nigeria's dynamic and vibrant underworld.</p>
+          </span>  <img src={trailer} />
         </div>
-       
-  
       </div>
     </div>
   </div>

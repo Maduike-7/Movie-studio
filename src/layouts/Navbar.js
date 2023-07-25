@@ -1,6 +1,6 @@
-import React, { useState }  from 'react';
+import React, { useState } from "react"; // Import useRef and useEffect
 
-import Icon from "./icon";
+// import Icon from "./icon";
 import Sign from "./sign";
 
 import "./navbar.css"
